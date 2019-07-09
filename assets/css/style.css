@@ -1,0 +1,29 @@
+body {
+    background-image: url("../images/cubes.png");
+}
+
+.rainbow-text {
+    text-align: center;
+    font-family: "Sigmar One";
+    font-size: 25px;
+    background-image: linear-gradient(to left, yellow, indigo, rgb(13, 13, 252), rgb(97, 212, 97), rgb(219, 16, 219), orange, red); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: dotted;
+    border-color: yellowgreen;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.counter {
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: dotted;
+    border-color: aqua;
+
+}
