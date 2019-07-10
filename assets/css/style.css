@@ -51,7 +51,7 @@ body {
     margin: auto;
 	width: 49%;
 	height: 100%;
-	font-size: 25px;
+	font-size: 20px;
 	float: right;
 	text-align: center;
     line-height: 1.3em;
@@ -86,15 +86,16 @@ body {
 
 #score {
 	font-size: 150%;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-left: 10px;
     padding-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#current-score-counter {
-	color: #fff;
-	font-size: 350%;
-    padding-left: 10px;
+#score-counter {
+	color: purple;
+	font-size: 35px;
+    padding-left: 49%;
+    line-height: 1.3em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
