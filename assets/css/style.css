@@ -20,10 +20,81 @@ body {
     margin-right: 10%;
 }
 
-.counter {
-    text-align: right;
+#randomnum-and-scoreboard {
+	width: 500px;
+	margin: 0 auto 10px;
+    height: 130px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-style: dotted;
-    border-color: aqua;
+}
 
+#random-num {
+    padding-left: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#random-num-generator {
+	background-image: url("../images/cubes.png");
+	font-size: 60px;
+    color: purple;
+    border-style: dotted;
+    border-color: teal;
+	width: 45%;
+	height: 100%;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#score-board {
+    background-image: url("../images/cubes.png");
+    border-style: dotted;
+    border-color: teal;
+    margin: auto;
+	width: 49%;
+	height: 100%;
+	font-size: 25px;
+	float: right;
+	text-align: center;
+    line-height: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#crystals {
+	background-color: #fff;
+	width: 496px;
+	height: 126px;
+	margin: auto;
+	border: 5px solid #3af02a;
+}
+
+#crystals img {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#score p {
+    text-align: center;
+    clear: both;
+	width: 500px;
+	height: 105px;
+    background-image: url("../images/cubes.png");
+    border-style: dotted;
+    border-color: blue;
+    margin: 10px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#score {
+	font-size: 150%;
+	padding-top: 5px;
+	padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#current-score-counter {
+	color: #fff;
+	font-size: 350%;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
